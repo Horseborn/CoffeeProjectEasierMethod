@@ -14,8 +14,15 @@ function View() {
                 </div>
             </div>
             
-        
+            
     `};
+
+    html+= `
+    <div id="totalCost">0</div>
+
+
+     <button onclick="clearData()" id="clearBtn">Clear data</button>
+    `
 
     document.getElementById('infoDiv').innerHTML = html;
 }

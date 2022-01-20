@@ -12,3 +12,14 @@ function SesongBrygg(i, change){
     View();
 }
 
+function clearData(){
+    
+    localStorage.clear();
+
+    for(let i = 0; i < model.drinks.length; i++){
+    model.drinks[i].total = 0;
+}
+    View();
+    
+}
+

@@ -26,15 +26,22 @@
         height:125px;
     }
     
-    .grid-item img{
+    #totalCost{
+        border: 1px black solid;
+        height: 75px;
+        font-size: 30px;
         
-    
+    }
+
+    #clearBtn{
+        border-radius: 50px;
+        width: 390px;
+    }
+    .grid-item img{
         
         margin-left: 263px;
         margin-top: -130px;
-        width: 120px; 
-        
-    
+        width: 120px;           
     }
     .grid-item img:hover{
       cursor: pointer;
