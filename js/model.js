@@ -1,5 +1,11 @@
+let bannerGfPics = [
+    "https://imgur.com/ZRzlNLf.jpg",
+    "https://i.imgur.com/EufSwMy.jpg",
+    "https://ibb.co/6NpKJdp",
+    "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flearnenglishteens.britishcouncil.org%2Fsites%2Fteens%2Ffiles%2Fstyles%2Farticle%2Fpublic%2Frs930_135120665-low.jpg%3Fitok%3DFSq5YONq&f=1&nofb=1"
 
-
+]
+let next = 0;
 
 
 let model = {

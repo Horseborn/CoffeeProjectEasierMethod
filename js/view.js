@@ -12,9 +12,7 @@ function View() {
                     <br><img onclick="SesongBrygg(${i},${drink.price})" src="${drink.img}">
                     
                 </div>
-            </div>
-            
-            
+            </div>                      
     `};
 
     html+= `
@@ -22,9 +20,15 @@ function View() {
         <div class="img-container">
         <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclipart.info%2Fimages%2Fccovers%2F1531011033heart-emoji.png&f=1&nofb=1">
         <button onclick="clearData()" id="clearBtn">Clear data</button>
+        <div id="totalSum">Total: ${model.totalSum}kr </div>
         </div>
 
-    `
+
+
+
+
+        `
+        // <button onclick="showSecretPage()">secret</button>
 
     document.getElementById('infoDiv').innerHTML = html;
 }

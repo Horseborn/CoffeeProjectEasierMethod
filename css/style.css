@@ -48,7 +48,7 @@
         width: 125px;
         font-size: 125%;
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -62,11 +62,21 @@
     }
 
     .img-container{
-        
+        background-color: hotpink;
         position: relative;
         height: auto;
-        width: 50%;
-        margin-left: 25%;
+        width: auto;    
+    }
+
+    #totalSum{
+        font-size: 150%;
+        position: absolute;
+        top: 47%;
+        left: 34%;
+        border-style: groove;
+        border-width: 15px;
+        border-color: hotpink;
+        
     }
 
     .img-container img{
@@ -75,3 +85,8 @@
         padding: 0;
         margin: 0;
     }
+
+    /* #showcase{
+        width: 150px;
+        height: 150px;
+    } */
