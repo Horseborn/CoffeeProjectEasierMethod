@@ -23,13 +23,13 @@ function View() {
         <div id="totalSum">Total: ${model.totalSum}kr </div>
         </div>
 
-        <button onclick="showSecretPage()">Secret</button
-
-
-
-
-
+        
+        
+        
+        
+        
         `
+        //<button onclick="showSecretPage()">Secret</button
         // <button onclick="showSecretPage()">secret</button>
 
     document.getElementById('infoDiv').innerHTML = html;
