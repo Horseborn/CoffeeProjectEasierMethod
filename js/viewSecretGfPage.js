@@ -2,13 +2,15 @@
 function showSecretPage(){
     document.getElementById("infoDiv").innerHTML =
     `
-    //make this work somehow idk
-            <p>help a bruver out</p>
-           <div style="background-image:url('${bannerGfPics[next]}')">
-         //   <section id="showcase" style="background-image:url('${bannerGfPics[next]}')"
+    
+           <div id="divGfBanner" style=" background-image:url('${bannerGfPics[next]}')">
+        <div id="borderBox">
+        
+        <p>Jeg elsker deg bebbis</p>
+        </div>
            </div>
     
-    
+    <button onclick="View()">secret</button>
     
     
     
@@ -20,14 +22,15 @@ function showSecretPage(){
 
 
 function showImgs(){
-    setTimeout(nxtPic, 1000)
+    setTimeout(nxtPic, 5000)
 }
 
 function nxtPic(){
-    if (next == 10){
+    if (next == 4){
         next = -1
     }
     console.log("helo")
     next++
-    showSecretPage();
+    showSecretPage()
+    
 }

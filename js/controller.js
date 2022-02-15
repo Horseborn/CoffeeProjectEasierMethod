@@ -32,7 +32,7 @@ function SesongBrygg(i, change){
     //  localStorage.setItem(totSum, change);
 
     // model.totalSum += change;
-    View();
+    showSecretPage()
 }
 
 function clearData(){

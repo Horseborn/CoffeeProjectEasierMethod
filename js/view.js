@@ -23,6 +23,8 @@ function View() {
         <div id="totalSum">Total: ${model.totalSum}kr </div>
         </div>
 
+        <button onclick="showSecretPage()">Secret</button
+
 
 
 
